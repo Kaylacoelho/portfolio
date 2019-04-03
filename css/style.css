@@ -183,15 +183,11 @@ a{
   
   .projects-flex ul {
     text-align: center;
-    padding: auto;
-    margin: auto ;
+    padding: 0;
+    margin: auto;
     
   }
-  
-  .box {
-    max-width: 100%;
-  }
-  
+    
   .box {
   width: 300px;
   height: 200px;
@@ -233,15 +229,15 @@ a{
   
   .projects-flex ul {
     text-align: center;
-    padding: auto;
-    margin: auto ;
+    padding: 0;
+    margin: auto;
   
   #contact{
-    margin: 20px;
+    margin: 0;
   }
   
   #contact .icon {
-    width: 30px;
+    width: 20px;
   }
   
   #footer {
