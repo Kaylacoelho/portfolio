@@ -222,14 +222,15 @@ a{
   .projects-flex {
     max-width: 100%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
-    
+    align-items: center;
+    margin: auto;
   }
   
   .projects-flex ul {
     text-align: center;
-    margin: 0;
+    margin: auto;
   
 
  #contact{
