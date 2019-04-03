@@ -1,0 +1,250 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 100%;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  color: #364f6b;
+  z-index: 5;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  float: right;
+ padding: 0;
+}
+
+nav ul li {
+  padding: 0 5vw;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link:hover {
+  color: #00adb5;
+}
+
+#welcome-section {
+  padding-top: 150px;
+  text-align: center;
+  height: 200px;
+  background-color: #f0f0f0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#welcome-section h1{
+  font-size: 3em;
+  margin: 0;
+}
+
+
+
+#projects {
+  color: #364f6b;
+  width: 100%;
+  text-align: center;
+}
+
+#projects h2 {
+  margin: 60px auto 70px auto;
+  }
+
+.projects-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.projects-flex ul{
+  list-style: none;
+  color: inherit;
+  padding: 0;
+}
+
+.box {
+  border: 1px solid rgba(240, 240, 240, 1);
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+
+.box p{
+  font-weight: 700;
+  font-size: 1.4em;
+}
+.box img {
+  width: 350px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+#contact h2 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+#contact{
+  margin: 100px;
+}
+
+#contact img {
+  margin: 20px;
+}
+
+#footer {
+  background-color: #f5f5f5;
+  padding: 25px;
+  font-size: 1em;
+  
+}
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:7px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+@media (max-width: 800px) {
+  
+  nav {
+    justify-content: center;  
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .projects-flex {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .projects-flex ul {
+    text-align: center;
+    padding: auto;
+    margin: auto ;
+    
+  }
+  
+  .box {
+    max-width: 100%;
+  }
+  
+  .box {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+
+.box p{
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.box img {
+  width: 250px;
+  height: 120px;
+}
+  
+  
+  
+}
+
+@media (max-width: 480px) {
+  
+  body {
+    max-width: 100%;
+    
+  }
+  
+  nav {
+    font-size: 0.8em;
+  }
+  
+  #welcome-section h1 {
+    font-size: 2.3em;
+  }
+  #welcome-section p {
+    font-size: 1em;
+  }
+  
+  #projects h2 {
+    font-size: 1.3em;
+    width: 50%;
+  }
+  
+  #contact{
+    margin: 20px;
+  }
+  
+  #contact .icon {
+    width: 30px;
+  }
+  
+  #footer {
+    font-size: 0.8em;
+    padding: 10px;
+    margin-top: 30px;
+  }
+}
