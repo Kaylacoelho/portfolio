@@ -229,15 +229,18 @@ a{
   
   .projects-flex ul {
     text-align: center;
-    padding: 0;
-    margin: auto;
+    margin: 0;
   
   #contact{
     margin: 0;
   }
   
   #contact .icon {
-    width: 20px;
+    width: 10px;
+  }
+	  
+  #contact h2 {
+  width: 100%;
   }
   
   #footer {
