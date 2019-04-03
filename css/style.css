@@ -222,7 +222,7 @@ a{
   .projects-flex {
     max-width: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     
   }
@@ -231,17 +231,16 @@ a{
     text-align: center;
     margin: 0;
   
-  #contact{
-    margin: 0;
-  }
+
+ #contact{
+  margin: 10px;
+}
   
   #contact .icon {
     width: 10px;
   }
 	  
-  #contact h2 {
-  width: 100%;
-  }
+ 
   
   #footer {
     font-size: 0.8em;
